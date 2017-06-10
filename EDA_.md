@@ -44,4 +44,7 @@ here below:
 
 The result you can see is the following:
 
-![Chart1.](/chart1.jpeg)
+    grid.arrange(p1, p2, widths = c(0.2, 0.8))
+
+![](EDA__files/figure-markdown_strict/unnamed-chunk-4-1.png) ![Chart
+1.](/chart1.jpg)
