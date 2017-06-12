@@ -10,7 +10,7 @@ in R
 Terrain
 -------
 
-![](MapsInR_MDv_files/figure-markdown_strict/map1Plot-1.png)
+![](Ireland1.jpeg)
 
     library(ggmap)
     Ireland3 <- get_map(location = 'Ireland', zoom = 7, maptype = "satellite")
@@ -18,7 +18,7 @@ Terrain
 Satellite
 ---------
 
-![](MapsInR_MDv_files/figure-markdown_strict/map3Plot-1.png)
+![](Ireland3.bmp)
 
     library(ggmap)
     Ireland4 <- get_map(location = 'Ireland', zoom = 7, maptype = "roadmap")
@@ -26,7 +26,7 @@ Satellite
 Roadmap
 -------
 
-![](MapsInR_MDv_files/figure-markdown_strict/map4Plot-1.png)
+![](Ireland4.bmp)
 
     library(ggmap)
     Ireland5 <- get_map(location = 'Ireland', zoom = 7, maptype = "hybrid")
@@ -34,7 +34,7 @@ Roadmap
 Hybrid
 ------
 
-![](MapsInR_MDv_files/figure-markdown_strict/map5Plot-1.png)
+![](Ireland5.bmp)
 
     library(ggmap)
     Ireland6 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner")
@@ -42,7 +42,7 @@ Hybrid
 Toner
 -----
 
-![](MapsInR_MDv_files/figure-markdown_strict/map6Plot-1.png)
+![](Ireland6.bmp)
 
     library(ggmap)
     Ireland7 <- get_map(location = 'Ireland', zoom = 7, maptype = "watercolor")
@@ -50,7 +50,7 @@ Toner
 Water Color
 -----------
 
-![](MapsInR_MDv_files/figure-markdown_strict/map7Plot-1.png)
+![](Ireland7.bmp)
 
     library(ggmap)
     Ireland9 <- get_map(location = 'Ireland', zoom = 7, maptype = "terrain-lines", source = "stamen")
@@ -58,7 +58,7 @@ Water Color
 Terrain-lines
 -------------
 
-![](MapsInR_MDv_files/figure-markdown_strict/map9Plot-1.png)
+![](Ireland9.bmp)
 
     library(ggmap)
     Ireland10 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-2010", source = "stamen")
@@ -66,7 +66,7 @@ Terrain-lines
 Toner-2010
 ----------
 
-![](MapsInR_MDv_files/figure-markdown_strict/map10Plot-1.png)
+![](Ireland10.bmp)
 
     library(ggmap)
     Ireland11 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-2011", source = "stamen")
@@ -74,7 +74,7 @@ Toner-2010
 Toner-2011
 ----------
 
-![](MapsInR_MDv_files/figure-markdown_strict/map11Plot-1.png)
+![](Ireland11.bmp)
 
     library(ggmap)
     Ireland12 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-background")
@@ -82,7 +82,7 @@ Toner-2011
 Toner-background
 ----------------
 
-![](MapsInR_MDv_files/figure-markdown_strict/map12Plot-1.png)
+![](Ireland12.bmp)
 
     library(ggmap)
     Ireland13 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-hybrid", source = "stamen")
@@ -90,7 +90,7 @@ Toner-background
 Toner-hybrid
 ------------
 
-![](MapsInR_MDv_files/figure-markdown_strict/map13Plot-1.png)
+![](Ireland13.bmp)
 
     library(ggmap)
     Ireland14 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-labels", source = "stamen")
@@ -98,7 +98,7 @@ Toner-hybrid
 Toner-labels
 ------------
 
-![](MapsInR_MDv_files/figure-markdown_strict/map14Plot-1.png)
+![](Ireland14.bmp)
 
     library(ggmap)
     Ireland15 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-lines", source = "stamen")
@@ -106,7 +106,7 @@ Toner-labels
 Toner-lines
 -----------
 
-![](MapsInR_MDv_files/figure-markdown_strict/map15Plot-1.png)
+![](Ireland15.bmp)
 
     library(ggmap)
     Ireland16 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-lite", source = "stamen")
@@ -114,4 +114,4 @@ Toner-lines
 Toner-lite
 ----------
 
-![](MapsInR_MDv_files/figure-markdown_strict/map16Plot-1.png)
+![](Ireland16.bmp)
