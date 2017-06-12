@@ -4,114 +4,114 @@ Maps in R
 Aim of this document is to show all the possible maps that are available
 in R
 
-    library(ggmap)
-    Ireland <- get_map(location = 'Ireland', zoom = 7, maptype = "terrain")
-
 Terrain
 -------
 
-![](Ireland1.jpeg)
-
     library(ggmap)
-    Ireland3 <- get_map(location = 'Ireland', zoom = 7, maptype = "satellite")
+    Ireland1 <- get_map(location = 'Ireland', zoom = 7, maptype = "terrain")
+
+![](Ireland1.jpeg)
 
 Satellite
 ---------
 
-![](Ireland3.bmp)
-
     library(ggmap)
-    Ireland4 <- get_map(location = 'Ireland', zoom = 7, maptype = "roadmap")
+    Ireland3 <- get_map(location = 'Ireland', zoom = 7, maptype = "satellite")
+    
+![](Ireland3.bmp)   
 
 Roadmap
 -------
 
-![](Ireland4.bmp)
-
     library(ggmap)
-    Ireland5 <- get_map(location = 'Ireland', zoom = 7, maptype = "hybrid")
-
+    Ireland4 <- get_map(location = 'Ireland', zoom = 7, maptype = "roadmap")
+    
+![](Ireland4.bmp)
+    
 Hybrid
 ------
 
-![](Ireland5.bmp)
-
     library(ggmap)
-    Ireland6 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner")
+    Ireland5 <- get_map(location = 'Ireland', zoom = 7, maptype = "hybrid")
+    
+![](Ireland5.bmp)   
 
 Toner
 -----
 
-![](Ireland6.bmp)
-
     library(ggmap)
-    Ireland7 <- get_map(location = 'Ireland', zoom = 7, maptype = "watercolor")
+    Ireland6 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner", source = "stamen")
+    
+![](Ireland6.bmp)    
 
 Water Color
 -----------
 
-![](Ireland7.bmp)
-
     library(ggmap)
-    Ireland9 <- get_map(location = 'Ireland', zoom = 7, maptype = "terrain-lines", source = "stamen")
+    Ireland7 <- get_map(location = 'Ireland', zoom = 7, maptype = "watercolor", source = "stamen")
+
+![](Ireland7.bmp)
 
 Terrain-lines
 -------------
 
-![](Ireland9.bmp)
-
     library(ggmap)
-    Ireland10 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-2010", source = "stamen")
+    Ireland9 <- get_map(location = 'Ireland', zoom = 7, maptype = "terrain-lines", source = "stamen")
+
+![](Ireland9.bmp)
 
 Toner-2010
 ----------
 
-![](Ireland10.bmp)
-
     library(ggmap)
-    Ireland11 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-2011", source = "stamen")
+    Ireland10 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-2010", source = "stamen")
+    
+![](Ireland10.bmp)
 
 Toner-2011
 ----------
 
-![](Ireland11.bmp)
-
     library(ggmap)
-    Ireland12 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-background")
+    Ireland11 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-2011", source = "stamen")
+
+![](Ireland11.bmp)    
 
 Toner-background
 ----------------
 
-![](Ireland12.bmp)
-
     library(ggmap)
-    Ireland13 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-hybrid", source = "stamen")
+    Ireland12 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-background")
+
+![](Ireland12.bmp)    
 
 Toner-hybrid
 ------------
 
-![](Ireland13.bmp)
-
     library(ggmap)
-    Ireland14 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-labels", source = "stamen")
+    Ireland13 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-hybrid", source = "stamen")
+
+![](Ireland13.bmp)
 
 Toner-labels
 ------------
 
-![](Ireland14.bmp)
-
     library(ggmap)
-    Ireland15 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-lines", source = "stamen")
+    Ireland14 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-labels", source = "stamen")
+
+![](Ireland14.bmp)   
 
 Toner-lines
 -----------
 
-![](Ireland15.bmp)
-
     library(ggmap)
-    Ireland16 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-lite", source = "stamen")
+    Ireland15 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-lines", source = "stamen")
+
+![](Ireland15.bmp)    
 
 Toner-lite
 ----------
+    
+    library(ggmap)
+    Ireland16 <- get_map(location = 'Ireland', zoom = 7, maptype = "toner-lite", source = "stamen")
 
 ![](Ireland16.bmp)
