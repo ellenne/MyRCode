@@ -46,4 +46,4 @@ The result you can see is the following:
 
     grid.arrange(p1, p2, widths = c(0.2, 0.8))
 
-![Chart1.](/chart1.jpeg)
+![Chart1.](Img/chart1.jpeg)
