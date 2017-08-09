@@ -33,4 +33,4 @@ Including Plots
 Where you see the elbow that is the ideal number of clustering in the
 data:
 
-![](Clustering_MD_files/figure-markdown_strict/pressure-1.png)
+![](Img/Elbow.jpeg)
